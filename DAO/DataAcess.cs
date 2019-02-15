@@ -11,6 +11,7 @@ namespace SimpleBot.DAO
     public static class DataAcess
     {
 
+
         public static MongoClient Connection()
         {
             var connectionString = ConfigurationManager.AppSettings["ConnectionString"];
