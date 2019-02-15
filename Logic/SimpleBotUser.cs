@@ -12,6 +12,7 @@ namespace SimpleBot.Logic
         {
             MensagemDao.Insert(message);
             return $"{message.User} disse '{message.Text}";
+
         }
 
     }
