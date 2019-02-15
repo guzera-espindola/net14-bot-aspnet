@@ -9,8 +9,7 @@ namespace SimpleBot.Logic
     public class SimpleBotUser
     {
         public string Reply(SimpleMessage message)
-        {
-        
+        {        
             MensagemDao.Insert(message);
             return $"{message.User} disse '{message.Text}";
 
